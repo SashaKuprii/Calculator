@@ -1,8 +1,13 @@
+import postfix
+
+
 class Program:
 
     @staticmethod
     def main():
-        pass
+        while True:
+            i = input("Enter expression:")
+            _postfix = postfix.Postfix.main(i)
 
 
 Program.main()
